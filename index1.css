@@ -20,12 +20,12 @@
   
   .header {
     height: 20vh;
-    text-align: center;
-    background-color: #eeeeee;
     background-image: url('photo_2025-10-12_20-25-49.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .second-header {
@@ -260,3 +260,4 @@
   
 
   
+
