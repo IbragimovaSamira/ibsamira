@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Студия танцев "Just dance"</title>
+    <link
+      rel="stylesheet"
+      href="index1.css"
+    />
+  </head>
+  <body>
+
+    <header id = "#header" class="header">
+      <div class="overlay">
+           <h1 id = "up" class="header-title"> </h1>
+      </div>
+    </header>
+    <header class = "second-header"> 
+        <div class = "second-overlay">
+            <h1 class = "second-header-title"> Студия танцев "Just Dance" </h1>
+        </div>
+    </header>
+    <header class = "navigation"> 
+            <nav > 
+                <ul>
+                    <li>   <a href = "index.html" > Главная</a></li>
+                    <li> <a href = "index2.html">О нашей системе</a></li>
+                    <li> <a href = "index4.html"><u>Записаться на занятия</u></a></li>
+
+                    <li> <a href = "index3.html">Решение алгоритмической задачи</a></li>
+                   <li> <a href = "passport.html">Паспорт</a></li>
+                  
+
+                </ul>
+                
+            </nav>
+    </header>
+  <header class = "page-navigation">
+      <nav> 
+        <ul>
+          <li> <a href = "#signup"> Записывайтесь на занятия </a> </li>
+          
+          <li> <a href = "#feedback">Оставляйте отзыв</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+
+
+    <h3 id="signup" class = "course-title"> Записывайтесь на занятия </h3>
+
+    <form class = "form" action = 'https://ya.ru/?npr=1' method = "get" target = "_blank">
+
+        <p>Фамилия:<input type = "text" name = "last_name" value="Петрова" required> </p>
+        <p>Имя <input type = "text" id = "name" name="first_name" size="30" value="Aнна"></p>
+        <p> Номер группы <input type = "number" id = "groupnumber" name="group_number" value="0"> </p>
+        <p>Мобильный телефон <input type="tel" id="mobile" name="mobile_phone" value="+7(987)654-32-21"></p>
+        <p>E-mail <input type = "email" id = "email" name="email" value="12345@yandex.ru"></p>
+        <p>Дата отправки:<input type="date" name="user_date"  value='2024-10-02'> </p>
+        <button type = "submit"> Отправить данные </button>
+
+    </form>
+
+
+
+    <h3 id="feedback" class = "course-title"> Оставляйте отзыв </h3>
+        <form class = "form" action = 'https://ya.ru/?npr=1' method = "get" target = "_blank">
+         <p> Укажите какого типа ваш отзыв:
+        <input type="Radio" name="type_of_feedback" value="Positive"> Позитивный
+        <input type="Radio" name="type_of_feedback" value="Negative" checked > Негативный
+        </p>
+        <p> Сколько поставите звёзд?(Выберите все 5 вариантов, если 5 звезд, 4 - если 4 и так далее):
+        <input type="Checkbox" name="stars"  value="1" checked> 1
+        <input type="Checkbox"  name="stars"   value="2" checked> 2
+        <input type="Checkbox" name="stars" value="3" checked> 3
+        <input type="Checkbox" name="stars" value="3" checked> 4
+        <input type="Checkbox" name="stars" value="3" checked> 5
+       
+
+    </p>
+    <p> Напишите откуда вы узнали о нас(очень коротко, буквально 2 слова) <input type = "text" id = "recognition" name="how_found_us" size="30" value="Из соцсетей"> </p>
+    <p> Дата вашего последнего посещения : <input type="date" name="last_visit_date"  value='2024-10-02'></p>
+    <p> Пароль от вашего личного кабинета: <input type="password" name="password" size=9  value="123456789"></p>
+
+    <p> Ваш отзыв:
+        <br>
+        <TEXTAREA cols=80 rows=4 name="textarea_feedback" > Мне всё очень понравилось/не понравилось... </TEXTAREA>
+    </p>
+        <input type="hidden" name="function"  value="page">
+        <input type="hidden" name="page_id"  value="2">
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+    </form>
+<a href="index.html">
+  <button> На главную</button>
+ </a>
+ 
+  </body>
+</html>

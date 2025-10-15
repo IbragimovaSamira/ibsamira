@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 100%;
+  }
+  
+  body {
+    min-width: 850px;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  
+  .header {
+    height: 50vh;
+    text-align: center;
+    background-color: #eeeeee;
+    background-image: url('photo_2025-10-12_20-25-49.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .second-header {
+      height: 100px;
+      text-align: center;
+      background-color: white;
+      background-position: center;
+  }
+
+  .header-title {
+    margin: auto;
+    color: white;
+    font-weight: 800;
+    font-size: 74px;
+    text-transform: uppercase;
+  }
+  
+  .overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 37, 37, 0.2);
+  }
+  
+  .second-overlay {
+      border-color: white;
+  }
+  
+  .second-header-title {
+       margin-top: 20px;
+       font-weight: 800;
+       font-size: 26px;
+       text-transform: uppercase;
+       margin-bottom: 49px;
+      padding: 20px;
+  }
+   .navigation {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+
+}
+
+.page-navigation {
+  margin-top: 10px;
+  margin-bottom: 20px ;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul,
+.page-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  
+}
+
+.navigation ul li,
+.page-navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a,
+.page-navigation ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+} 
+
+.navigation ul li a:hover,
+.page-navigation ul li a:hover {
+    background-color: rgb(210, 176, 206) ;
+    color: black; }
+
+  
+  .content {
+    width: 770px;
+    margin: 100px auto 50px;
+    font-size: 0;
+  }
+  
+  .card {
+    display: inline-block;
+    height: 500px;
+    width: 360px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding: 25px 25px 25px;
+    vertical-align:top;
+  }
+
+  
+  
+  
+  .no-right-margin {
+    margin-right: 0;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card-text {
+    font-size: 18px;
+  }
+  
+  .card-image {
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    display:flex;
+  }
+
+  .page-frame {
+    background-color: white;
+    color:  rgba(220, 37, 37, 0.5)
+  }
+
+  .page-text {
+    padding: auto;
+    margin: auto;
+    width: 80%;
+    color: black;
+    height: 150px;
+    background-color: white;
+    font-weight: 700;
+    text-align: center;
+  }
+
+ .picture {
+    padding: auto;
+    margin:0 auto 40px;
+    height: 400px;
+    width: 600px;
+    display: flex;
+
+ }
+
+  .up {
+    width: 10%;
+  }
+
+  .up-text  a{
+     margin: auto;
+     color: black;
+     background-color: white;
+     font-weight: 400;
+     font-size: 15px;
+     
+
+  }
+  
+  .footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 18px;
+
+  }
+  
+
+  .course-content {
+   
+    width: 100%;
+    height: 300px;
+    color:#000000;
+    margin-left: auto;
+    margin-top: 10px ;
+    margin-bottom: 0;
+    padding: auto;
+
+  }
+  
+  .course-title {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  
+ 
+  .course-text {
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding-left: 0%;
+    margin: auto;
+    width: 80%;
+    color: black;
+    height: 100px;
+    background-color: white;
+    font-weight: normal;
+    text-align:left;
+    line-height: 20px;
+  }
+
+  .ul li,
+  .ol li {
+    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: weight;
+    list-style-type: decimal-leading-zero;
+    
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 500px; 
+    padding: 20px; 
+
+  }
+  
+  

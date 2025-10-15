@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Студия танцев "Just dance"</title>
+    <link
+      rel="stylesheet"
+      href="index1.css"
+    />
+  </head>
+  <body>
+
+    <header id = "#header" class="header">
+      <div class="overlay">
+           <h1 id = "up" class="header-title"> </h1>
+      </div>
+    </header>
+    <header class = "second-header"> 
+        <div class = "second-overlay">
+            <h1 class = "second-header-title"> Студия танцев "Just Dance" </h1>
+        </div>
+    </header>
+    <header class = "navigation"> 
+            <nav > 
+                <ul>
+                    <li>   <a href = "index.html" > Главная</a></li>
+                    <li> <a href = "index2.html">О нашей системе</a></li>
+                    <li> <a href = "index4.html">Записаться на занятия</a></li>
+
+                    <li> <a href = "index3.html"><u>Решение алгоритмической задачи</u></a></li>
+                    <li> <a href = "passport.html">Паспорт</a></li>
+                  
+                </ul>
+                  
+
+                
+            </nav>
+    
+    </header>
+
+    <h2 class = "course-title"> Решение алгоритмической задачи </h2>
+    <form class = "form" id="form" action = 'https://ya.ru/?npr=1' method = "get" target = "_blank">
+
+                <p>Описание задачи:
+                  <br> <textarea cols="60" rows="4" id="task" name="formulation">Принадлежит ли число X заданному промежутку [a;b]? </textarea> </p>
+            <p>a: <input id="a" name="a"  type="number" value="10"></p>
+            <p>b: <input id="b"  name="b" type="number" value="20"></p>
+            <p>X: <input id="X"  name="X" type="number" value="19"></p>
+            <input type="hidden" id="resultField" name="result">
+    </form>
+         <button onclick="check()"> Проверить</button>
+           <p>Результат решения задачи: <span id="result"></span></p>
+            <button id="submit" onclick="SubmitForm()">Отправить форму </button>
+       
+        <script src="task.js"></script>     
+
+  
+    <br>  
+  <a href="index.html">
+  <button> На главную</button>
+ </a>
+    
+</body>
+</html>
+
+
+
